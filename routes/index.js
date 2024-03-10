@@ -3,6 +3,6 @@ import { getEvents, getEventCount } from "../controllers/Event.js"
 
 const router = express.Router();
 router.get('/events/:date', getEvents);
-router.get('/eventcount/:year/:month', getEventCount);
+router.get('/eventcount/:start/:end', getEventCount);
 
 export default router;
