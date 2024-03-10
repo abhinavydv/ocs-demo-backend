@@ -46,7 +46,7 @@ app.use(
 app.use(express.json());
 app.use("/", routes);
 
-var use_https = false;
+var use_https = true;
 
 if (use_https){
     const options = {
@@ -59,7 +59,7 @@ if (use_https){
       app
     )
 
-    const port = 443
+    const port = 5000
     server.listen(port, () => console.info("Server listening on port " + port + "..."));
 } else {
     const port = 5000;

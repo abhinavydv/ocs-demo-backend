@@ -9,6 +9,7 @@
   "private": false,
   "type": "module",
   "dependencies": {
+    "@google-cloud/cloud-sql-connector": "^1.2.3",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
