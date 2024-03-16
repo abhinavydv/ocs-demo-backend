@@ -20,7 +20,7 @@ try {
 
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["http://localhost:3000", "http://ocs.iith-ac.in", "https://ocs.iith-ac.in"],
     methods: ["GET", "POST"],
     credentials: true,
   })
